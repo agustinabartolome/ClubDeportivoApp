@@ -46,7 +46,7 @@
         android:layout_marginTop="5dp"
         android:autoSizeTextType="uniform"
         android:fontFamily="sans-serif"
-        android:text="Selección de un medio de pago"
+        android:text="Selecciona un medio de pago"
         android:textColor="#2A2A2A"
         android:textSize="16sp"
         android:textAlignment="center"

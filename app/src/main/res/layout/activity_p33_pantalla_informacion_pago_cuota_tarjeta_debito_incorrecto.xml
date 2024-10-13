@@ -36,7 +36,7 @@
         android:layout_width="226dp"
         android:layout_height="70dp"
         android:layout_gravity="center_horizontal"
-        android:text="No se pudo realizar el pago de la inscripción."
+        android:text="No se pudo realizar el pago de la cuota."
         android:textColor="#2A2A2A"
         android:textSize="22sp"
         android:textAlignment="center"

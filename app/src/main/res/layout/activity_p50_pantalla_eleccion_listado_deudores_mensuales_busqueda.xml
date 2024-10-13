@@ -26,7 +26,7 @@
             android:layout_height="45dp"
             android:layout_marginStart="84dp"
             android:layout_gravity="center"
-            android:text="Buscar DNI deudor"
+            android:text="Buscar fecha"
             android:textColor="#F5F5F5"
             android:background="@drawable/button_border_5"
             android:textSize="12sp"
