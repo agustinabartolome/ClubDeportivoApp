@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f5f5f5"
+    tools:context=".P24_PantallaSolicitudCarnet">
+
+    <TextView
+        android:id="@+id/textView_SolicitudCarnet"
+        android:layout_width="195dp"
+        android:layout_height="19dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="65dp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="sans-serif"
+        android:text="Solicitud de carnet correspondiente"
+        android:textColor="#2A2A2A"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textStyle="normal" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="#f5f5f5"/>
+
+    <EditText
+        android:id="@+id/Nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="30dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Nombre"
+        android:textColor="#2A2A2A"
+        android:fontFamily="sans-serif"
+        android:textSize="16sp"
+        android:textColorHint="#2A2A2A"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="26dp"
+        android:background="#f5f5f5"/>
+
+    <EditText
+        android:id="@+id/Apellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="30dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Apellido"
+        android:textColor="#2A2A2A"
+        android:fontFamily="sans-serif"
+        android:textSize="16sp"
+        android:textColorHint="#2A2A2A"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="26dp"
+        android:background="#f5f5f5"/>
+
+    <EditText
+        android:id="@+id/Documento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="30dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Número de Documento"
+        android:textColor="#2A2A2A"
+        android:fontFamily="sans-serif"
+        android:textSize="16sp"
+        android:textColorHint="#2A2A2A"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="26dp"
+        android:background="#f5f5f5"/>
+
+    <EditText
+        android:id="@+id/Categoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="30dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Categoria"
+        android:textColor="#2A2A2A"
+        android:fontFamily="sans-serif"
+        android:textSize="16sp"
+        android:textColorHint="#2A2A2A"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#f5f5f5"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSolicitar"
+        android:layout_width="296dp"
+        android:layout_height="61dp"
+        android:layout_gravity="center"
+        android:text="Solicitar"
+        android:textColor="#2A2A2A"
+        android:background="@drawable/button_border_2"
+        android:textSize="32sp"
+        android:textAllCaps="false"
+
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#f5f5f5"/>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f5f5f5">
+
+        <com.google.android.material.bottomappbar.BottomAppBar
+            android:id="@+id/bottomAppBar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:backgroundTint="#f5f5f5"/>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</LinearLayout>

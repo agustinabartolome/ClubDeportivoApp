@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f5f5f5"
+    tools:context=".P62_PantallaDatosNoSocioBuscado">
+
+    <TextView
+        android:id="@+id/textView_DatosNoSocio"
+        android:layout_width="125dp"
+        android:layout_height="19dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="65dp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="sans-serif"
+        android:text="Datos personales"
+        android:textColor="#2A2A2A"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textStyle="normal" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:background="#f5f5f5"/>
+
+    <EditText
+        android:id="@+id/Nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="30dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Nombre"
+        android:textColor="#2A2A2A"
+        android:fontFamily="sans-serif"
+        android:textSize="16sp"
+        android:textColorHint="#2A2A2A"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:background="#f5f5f5"/>
+
+    <EditText
+        android:id="@+id/Apellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="30dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Apellido"
+        android:textColor="#2A2A2A"
+        android:fontFamily="sans-serif"
+        android:textSize="16sp"
+        android:textColorHint="#2A2A2A"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:background="#f5f5f5"/>
+
+    <EditText
+        android:id="@+id/FechaNacimiento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="30dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Fecha de nacimiento"
+        android:textColor="#2A2A2A"
+        android:fontFamily="sans-serif"
+        android:textSize="16sp"
+        android:textColorHint="#2A2A2A"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:background="#f5f5f5"/>
+
+    <EditText
+        android:id="@+id/Documento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="30dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Número de Documento"
+        android:textColor="#2A2A2A"
+        android:fontFamily="sans-serif"
+        android:textSize="16sp"
+        android:textColorHint="#2A2A2A"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:background="#f5f5f5"/>
+
+    <EditText
+        android:id="@+id/Direccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="30dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Dirección"
+        android:textColor="#2A2A2A"
+        android:fontFamily="sans-serif"
+        android:textSize="16sp"
+        android:textColorHint="#2A2A2A"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:background="#f5f5f5"/>
+
+    <EditText
+        android:id="@+id/Telefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="30dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Teléfono"
+        android:textColor="#2A2A2A"
+        android:fontFamily="sans-serif"
+        android:textSize="16sp"
+        android:textColorHint="#2A2A2A"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:background="#f5f5f5"/>
+
+    <EditText
+        android:id="@+id/CorreoElectronico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="30dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Correo electronico"
+        android:textColor="#2A2A2A"
+        android:fontFamily="sans-serif"
+        android:textSize="16sp"
+        android:textColorHint="#2A2A2A"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:background="#f5f5f5"/>
+
+    <EditText
+        android:id="@+id/AptoFisico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="30dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Apto físico"
+        android:textColor="#2A2A2A"
+        android:fontFamily="sans-serif"
+        android:textSize="16sp"
+        android:textColorHint="#2A2A2A"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:background="#f5f5f5"/>
+
+    <EditText
+        android:id="@+id/FichaMedica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="30dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Ficha médica"
+        android:textColor="#2A2A2A"
+        android:fontFamily="sans-serif"
+        android:textSize="16sp"
+        android:textColorHint="#2A2A2A"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:background="#f5f5f5"/>
+
+    <EditText
+        android:id="@+id/FechaInscripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="30dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Fecha de inscripción"
+        android:textColor="#2A2A2A"
+        android:fontFamily="sans-serif"
+        android:textSize="16sp"
+        android:textColorHint="#2A2A2A"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:background="#f5f5f5"/>
+
+    <EditText
+        android:id="@+id/FechaUltimoPago"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="30dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Fecha de último pago"
+        android:textColor="#2A2A2A"
+        android:fontFamily="sans-serif"
+        android:textSize="16sp"
+        android:textColorHint="#2A2A2A"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:background="#f5f5f5"/>
+
+    <EditText
+        android:id="@+id/VencimientoCuota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="30dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Vencimiento cuota"
+        android:textColor="#2A2A2A"
+        android:fontFamily="sans-serif"
+        android:textSize="16sp"
+        android:textColorHint="#2A2A2A"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:background="#f5f5f5"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnVolver"
+        android:layout_width="296dp"
+        android:layout_height="43dp"
+        android:layout_gravity="center"
+        android:text="Continuar"
+        android:textColor="#2A2A2A"
+        android:background="@drawable/button_border_2"
+        android:textSize="32sp"
+        android:textAllCaps="false"
+
+        />
+
+
+</LinearLayout>

@@ -13,10 +13,111 @@
         android:theme="@style/Theme.ClubDeportivo"
         tools:targetApi="31">
         <activity
-            android:name=".D_PantallaHome"
+            android:name=".P63_PantallaSistemaActividades"
             android:exported="false" />
         <activity
-            android:name=".C_PantallaInicioLogueo"
+            android:name=".P46_PantallaEleccionListadoDeudoresDiariosEncontrado"
+            android:exported="false" />
+        <activity
+            android:name=".P45_PantallaEleccionListadoDeudoresDiariosBusqueda"
+            android:exported="false" />
+        <activity
+            android:name=".P44_PantallaEleccionListadoDeudoresDiarios"
+            android:exported="false" />
+        <activity
+            android:name=".P43_PantallaEleccionListadoDeudores"
+            android:exported="false" />
+        <activity
+            android:name=".P42_PantallaEleccionListados"
+            android:exported="false" />
+        <activity
+            android:name=".P33_PantallaInformacionPagoCuotaTarjetaDebitoIncorrecto"
+            android:exported="false" />
+        <activity
+            android:name=".P30_PantallaEleccionMetodoPagoCuotas"
+            android:exported="false" />
+        <activity
+            android:name=".P29_PantallaPagoCuotaDiaria"
+            android:exported="false" />
+        <activity
+            android:name=".P28_PantallaPagoCuotaMensual"
+            android:exported="false" />
+        <activity
+            android:name=".P27_PantallaPagos"
+            android:exported="false" />
+        <activity
+            android:name=".P25_PantallaSolicitudCarnetRealizada"
+            android:exported="false" />
+        <activity
+            android:name=".P24_PantallaSolicitudCarnet"
+            android:exported="false" />
+        <activity
+            android:name=".P23_PantallaInformacionOtroMedioPagoIncorrecto"
+            android:exported="false" />
+        <activity
+            android:name=".P22_PantallaInformacionOtroMedioPagoConfirmada"
+            android:exported="false" />
+        <activity
+            android:name=".P21_PantallaInformacionOtroMedioPago"
+            android:exported="false" />
+        <activity
+            android:name=".P20_PantallaInformacionPagoEfectivoConfirmada"
+            android:exported="false" />
+        <activity
+            android:name=".P19_PantallaInformacionPagoEfectivo"
+            android:exported="false" />
+        <activity
+            android:name=".P18_PantallaInformacionPagoTarjetaCreditoIncorrecta"
+            android:exported="false" />
+        <activity
+            android:name=".P17_PantallaInformacionPagoTarjetaCreditoConfirmado"
+            android:exported="false" />
+        <activity
+            android:name=".P16_PantallaInformacionPagoTarjetaCredito"
+            android:exported="false" />
+        <activity
+            android:name=".P15_PantallaInformacionPagoTarjetaDebitoIncorrecta"
+            android:exported="false" />
+        <activity
+            android:name=".P14_PantallaInformacionPagoTarjetaDebitoConfirmado"
+            android:exported="false" />
+        <activity
+            android:name=".P13_PantallaInformacionPagoTarjetaDebito"
+            android:exported="false" />
+        <activity
+            android:name=".P12_PantallaEleccionMetodoPago"
+            android:exported="false" />
+        <activity
+            android:name=".P11_PantallaEleccionFinalizarRegistro"
+            android:exported="false" />
+        <activity
+            android:name=".P11_ScrollingActivity_PantallaRegistrarInscripcionSocio_2"
+            android:exported="false"
+            android:label="@string/title_activity_p11_scrolling_pantalla_registrar_inscripcion_socio2"
+            android:theme="@style/Theme.ClubDeportivo.NoActionBar" />
+        <activity
+            android:name=".P10_PantallaRegistrarInscripcionSocio"
+            android:exported="false" />
+        <activity
+            android:name=".P9_PantallaEleccionRegistro"
+            android:exported="false" />
+        <activity
+            android:name=".P8_PantallaVerificacionDocumentoIncorrecta"
+            android:exported="false" />
+        <activity
+            android:name=".P7_PantallaVerificacionDocumentoCorrecta"
+            android:exported="false" />
+        <activity
+            android:name=".P6_PantallaVerificacionDocumento"
+            android:exported="false" />
+        <activity
+            android:name=".P5_PantallaDeInscripcion"
+            android:exported="false" />
+        <activity
+            android:name=".P4_PantallaHome"
+            android:exported="false" />
+        <activity
+            android:name=".P3_PantallaInicioLogueo"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,10 +126,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".B_PantallaBienvenida"
+            android:name=".P2_PantallaBienvenida"
             android:exported="false" />
         <activity
-            android:name=".A_PantallaInicio"
+            android:name=".P1_PantallaInicio"
             android:exported="false" />
         <activity
             android:name=".PantallaInicio"

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f5f5f5"
+    tools:context=".P8_PantallaVerificacionDocumentoIncorrecta">
+
+    <TextView
+        android:id="@+id/textView_VerificacionDocumentoIncorrecta"
+        android:layout_width="195dp"
+        android:layout_height="19dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="65dp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="sans-serif"
+        android:text="Solicitud de comprobación"
+        android:textColor="#2A2A2A"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textStyle="normal" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="#f5f5f5"/>
+
+    <androidx.constraintlayout.utils.widget.ImageFilterButton
+        android:id="@+id/imageFilterButton2"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@android:drawable/ic_delete" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="#f5f5f5"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="282dp"
+        android:layout_height="82dp"
+        android:layout_gravity="center_horizontal"
+        android:text="El número de documento ya se encuentra registrado en nuestro sistema."
+        android:textColor="#2A2A2A"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textStyle="normal" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="#f5f5f5"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnVolver"
+        android:layout_width="296dp"
+        android:layout_height="61dp"
+        android:layout_gravity="center"
+        android:text="Volver"
+        android:textColor="#2A2A2A"
+        android:background="@drawable/button_border_2"
+        android:textSize="32sp"
+        android:textAllCaps="false"
+
+        />
+
+</LinearLayout>

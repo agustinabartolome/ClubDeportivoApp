@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f5f5f5"
+    tools:context=".P26_A_PantallaEleccionFinalizarRegistroNoSocio">
+
+    <TextView
+        android:id="@+id/textView_InscripcionNoSocio"
+        android:layout_width="195dp"
+        android:layout_height="19dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="65dp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="sans-serif"
+        android:text="Inscripción de un no socio"
+        android:textColor="#2A2A2A"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textStyle="normal" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#f5f5f5"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnPagarInscripcion"
+        android:layout_width="296dp"
+        android:layout_height="115dp"
+        android:layout_gravity="center"
+        android:text="Pagar Inscripción"
+        android:background="@drawable/button_border_1"
+        android:textColor="#2A2A2A"
+        android:textSize="32sp"
+        android:textAllCaps="false"
+
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#f5f5f5"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnCarnet"
+        android:layout_width="296dp"
+        android:layout_height="115dp"
+        android:layout_gravity="center"
+        android:text="Carnet"
+        android:background="@drawable/button_border_1"
+        android:textColor="#2A2A2A"
+        android:textSize="32sp"
+        android:textAllCaps="false"
+
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#f5f5f5"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnPagarCuota"
+        android:layout_width="296dp"
+        android:layout_height="115dp"
+        android:layout_gravity="center"
+        android:text="Pagar Cuota"
+        android:background="@drawable/button_border_1"
+        android:textColor="#2A2A2A"
+        android:textSize="32sp"
+        android:textAllCaps="false"
+
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#f5f5f5"/>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f5f5f5">
+
+        <com.google.android.material.bottomappbar.BottomAppBar
+            android:id="@+id/bottomAppBar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:backgroundTint="#f5f5f5"/>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</LinearLayout>

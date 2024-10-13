@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f5f5f5"
+    tools:context=".P12_PantallaEleccionMetodoPago">
+
+    <TextView
+        android:id="@+id/textView_pagarInscripcion"
+        android:layout_width="195dp"
+        android:layout_height="19dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="65dp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="sans-serif"
+        android:text="Pagar Inscripcion"
+        android:textColor="#2A2A2A"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textStyle="normal" />
+
+
+    <TextView
+        android:id="@+id/textView_metodoPago"
+        android:layout_width="233dp"
+        android:layout_height="38dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="35dp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="sans-serif"
+        android:text="Método de Pago"
+        android:textColor="#2A2A2A"
+        android:textSize="32sp"
+        android:textAlignment="center"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/textView_seleccionarPago"
+        android:layout_width="195dp"
+        android:layout_height="19dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="sans-serif"
+        android:text="Selección de un medio de pago"
+        android:textColor="#2A2A2A"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textStyle="normal" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#f5f5f5"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnTarjetaDebito"
+        android:layout_width="312dp"
+        android:layout_height="86dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_border_4"
+        android:text="Tarjeta de débito"
+        android:textAllCaps="false"
+        android:textColor="#2A2A2A"
+        android:textSize="15sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="#f5f5f5"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnTarjetaCredito"
+        android:layout_width="312dp"
+        android:layout_height="86dp"
+        android:background="@drawable/button_border_4"
+        android:text="Tarjeta de crédito"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:textColor="#2A2A2A"
+        android:textSize="15sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="#f5f5f5"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnPagoEfectivo"
+        android:layout_width="312dp"
+        android:layout_height="86dp"
+        android:background="@drawable/button_border_4"
+        android:text="Pago en efectivo"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:textColor="#2A2A2A"
+        android:textSize="15sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="#f5f5f5"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnOtrosMediosPago"
+        android:layout_width="312dp"
+        android:layout_height="86dp"
+        android:background="@drawable/button_border_4"
+        android:layout_borderColor="#A6A5A5"
+        android:text="Otros medios de pago"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:textColor="#2A2A2A"
+        android:textSize="15sp"/>
+
+</LinearLayout>

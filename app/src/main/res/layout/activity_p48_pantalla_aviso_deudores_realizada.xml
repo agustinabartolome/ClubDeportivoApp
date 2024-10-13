@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f5f5f5"
+    tools:context=".P48_PantallaAvisoDeudoresRealizada">
+
+    <TextView
+        android:id="@+id/textView_SolicitudAvisoDeudores"
+        android:layout_width="249dp"
+        android:layout_height="19dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="65dp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="sans-serif"
+        android:text="Solicitud de aviso correspondiente"
+        android:textColor="#2A2A2A"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textStyle="normal" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#f5f5f5"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="115dp"
+        android:layout_height="103dp"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#f5f5f5"/>
+
+    <androidx.constraintlayout.utils.widget.ImageFilterButton
+        android:id="@+id/imageFilterButton"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@android:drawable/checkbox_on_background" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="#f5f5f5"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="282dp"
+        android:layout_height="171dp"
+        android:layout_gravity="center_horizontal"
+        android:text="¡La solicitud del aviso fue realizada correctamente!
+
+Le enviamos a nuestro cliente más información por correo electrónico para que regularice su situación."
+        android:textColor="#2A2A2A"
+        android:textSize="22sp"
+        android:textAlignment="center"
+        android:textStyle="normal" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#f5f5f5"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnVolver"
+        android:layout_width="296dp"
+        android:layout_height="61dp"
+        android:layout_gravity="center"
+        android:text="Volver"
+        android:textColor="#2A2A2A"
+        android:background="@drawable/button_border_2"
+        android:textSize="32sp"
+        android:textAllCaps="false"
+
+        />
+
+</LinearLayout>
